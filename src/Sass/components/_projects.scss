@@ -1,0 +1,21 @@
+@import "../helpers/variables";
+
+#projects {
+
+    h1 {
+        text-align: center;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,16 @@
+@import "../helpers/variables";
+
+#cv {
+
+    .titleSection {
+        max-width: 300px;
+        margin-left: 10%;
+
+        font-size: $title-h1;
+    }
+
+    .next {
+        width: 85%;
+    }
+
+}

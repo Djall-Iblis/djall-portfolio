@@ -1,0 +1,32 @@
+@import "../../helpers/variables";
+
+#cardProject {
+
+    max-width: 330px;
+    margin: 40px auto;
+    padding: 0;
+    border: solid 2px $main-font;
+    border-radius: 25px;
+    min-height: 500px;
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        margin: auto;
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .url {
+        margin: 0 10%;
+    }
+
+    img {
+        display: flex;
+        width: 300px;
+        margin: 20px auto;
+    }
+
+}

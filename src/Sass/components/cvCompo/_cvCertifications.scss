@@ -1,0 +1,15 @@
+@import "../../helpers/variables";
+
+#cvCertifications {
+
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

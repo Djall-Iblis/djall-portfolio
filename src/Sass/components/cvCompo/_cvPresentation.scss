@@ -1,0 +1,14 @@
+@import "../../helpers/variables";
+
+#cvPresentation {
+
+    padding: 20px;
+    margin: 0 auto;
+
+    max-width: 1000px;
+
+    p{
+        font-size: $lien-size;
+    }
+
+}

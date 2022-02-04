@@ -1,0 +1,31 @@
+@import "../../helpers/variables";
+
+#cvHeader {
+
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        margin: auto;
+        min-width: 250px;
+        min-height: 250px;
+        border-radius: 50%;
+
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    div {
+        margin: auto;
+
+        h3 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: $title-h2;
+        }
+
+    }
+
+}

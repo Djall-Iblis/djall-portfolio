@@ -1,0 +1,20 @@
+@import "../../helpers/variables";
+
+#cvFormation {
+
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    hr {
+        width: 80%;
+        height: 3px;
+    }
+
+}

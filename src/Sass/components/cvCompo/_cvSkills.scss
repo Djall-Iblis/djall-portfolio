@@ -1,0 +1,22 @@
+@import "../../helpers/variables";
+
+#cvSkills {
+
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 300px;
+
+        hr {
+            min-width: 30%;
+            height: 3px;
+            background-color: $main-font;
+        }
+    }
+
+}
