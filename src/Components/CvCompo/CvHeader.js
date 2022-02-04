@@ -12,7 +12,7 @@ const CvHeader = ({photo, firstname, lastname, adress, telephone, email}) => {
 
                 <h3>{firstname} {lastname}</h3>
                 <h3>{adress}</h3>
-                <h3>N° de téléphone : {telephone}</h3>
+                <h3>N° : {telephone}</h3>
                 <h3>{email}</h3>
 
             </div>
