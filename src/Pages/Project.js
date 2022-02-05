@@ -1,20 +1,19 @@
-import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 
-// import components
+//import components
 import NavBar from "../Components/NavBar";
 import CardProject from "../Components/ProjectsCompo/CardProject";
 
-// import elements
+// import scss
+/* import "../Sass/components/_project.scss"; */
+
+//import elements
 import Logo from "../img/logo/logo.svg"
 import logoReact from "../img/logo/logoReact.jpg"
 import logoLaravel from "../img/logo/logoLaravel.png"
 import logoHtmlCss from "../img/logo/logoHtmlCss.jpg"
 
-// import scss
-import "../Sass/components/_projects.scss";
-
-
-// declaration variables
+// Declaration variables
 const DataProjects = [{ 
     id: '1',
     name: 'Projet React Sass',
@@ -36,37 +35,31 @@ const DataProjects = [{
  }
 ]
 
-const Projects = () => {
-    return ( 
-        <section id="projects">
+const Project = () => {
 
-            <NavBar 
-                title={"Logo"}
-                image={Logo}
-            />
+    const id = useParams();
+    const index = id.slug - 1
+    console.log(index)
 
-            <h1>Mes projets</h1>
+        return ( 
+            <section id="project">
 
-            <div className="container">
-                {
-                    DataProjects.map((data, index) => (
-                        <div key={index} className="card">
-                            <Link to={`/${data.id}`}>
-                                <CardProject
-                                id={data.id}
-                                name={data.name}
-                                desc={data.desc}
-                                url={data.url}
-                                images={data.images}
-                                />
-                            </Link>
-                        </div>
-                    ))
-                }
-            </div>
-            
-        </section>
-     );
+                <NavBar 
+                    title={"Logo"}
+                    image={Logo}
+                />
+
+                <CardProject
+                    name={DataProjects[index].name}
+                    desc={DataProjects[index].desc}
+                    url={DataProjects[index].url}
+                    images={DataProjects[index].images}
+                />
+
+            </section>
+        );
+
+    
 }
- 
-export default Projects;
+
+export default Project;

@@ -2,10 +2,10 @@
 import "../../Sass/components/projectsCompo/_cardProject.scss";
 
 
-const CardProject = ({name, desc, url, images}) => {
+const CardProject = ({name, desc, url, images, id}) => {
     return ( 
         <section id="cardProject">
-            
+
             <h2>{name}</h2>
 
             <p>{desc}</p>

@@ -8,6 +8,8 @@ import NoMatch from './NoMatch';
 const Home = lazy(() => import('../Pages/Home'));
 const Projects = lazy(() => import('../Pages/Projects'));
 const CV = lazy(() => import('../Pages/CV'));
+const Project = lazy(() => import('../Pages/Project'));
+const Quizz = lazy(() => import('../Pages/Quizz'));
 
 
 const Rooter = () => (
@@ -17,6 +19,11 @@ const Rooter = () => (
                 <Route exact path="/" component={Home}/>
                 <Route path="/projects" component={Projects}/>
                 <Route path="/cv" component={CV}/>
+                <Route path="/quizz" component={Quizz}/>
+                <Route path="/:slug" component={Project}/>
+
+                
+
 
                 <Route path="*" component={NoMatch}/>
             </Switch>
