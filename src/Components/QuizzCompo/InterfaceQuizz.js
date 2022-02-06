@@ -31,7 +31,7 @@ const InterfaceQuizz = ({dataBase, name, theme, level}) => {
     return ( 
         <section id="interfaceQuizz">
 
-            <header>
+            <div>
                 <div>
                     <h2>{name}</h2>
 
@@ -40,7 +40,7 @@ const InterfaceQuizz = ({dataBase, name, theme, level}) => {
                 
                 <p>{theme}</p>
 
-            </header>
+            </div>
 
             <div className="questionSection">
                 <div className="questionText">{DataUsed[currentQuestion].questionText}</div>

@@ -1,5 +1,4 @@
 //import scss
-import { Link } from "react-router-dom";
 import "../../Sass/components/projectsCompo/_cardProject.scss";
 
 
