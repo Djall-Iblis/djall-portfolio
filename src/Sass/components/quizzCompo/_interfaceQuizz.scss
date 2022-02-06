@@ -1,0 +1,118 @@
+@import "../../helpers/variables";
+
+#interfaceQuizz {
+
+    color: $main-background;
+    padding: 30px 50px;
+    margin: 20px auto;
+
+    border: 2px solid $main-background;
+    border-radius: 25px;
+
+    .headerInterface {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        h2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    .questionSection {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 20px auto 20px auto;
+
+        .questionText {
+            font-size: $title-h2;
+        }
+
+    }
+
+    .answerSection {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        button {
+            width: 90%;
+            margin: 20px auto;
+            height: 50px;
+
+            background-color: $main-background;
+            border-radius: 10px;
+            border: 2px solid $main-background;
+
+            font-size: $text-card;
+        }
+
+        button:hover {
+            background-color: $main-font;
+            color: $main-background;
+        }
+
+    }
+
+    .displayNone {
+
+        display: none;
+
+    }
+
+    .scoreSection {
+
+        text-align: center;
+        font-size: $title-h1;
+
+        .playAgain {
+            width: 200px;
+            padding: 10px;
+            font-size: $title-h2;
+            margin: 20px auto;
+
+            background-color: $main-background;
+            border-radius: 10px;
+            border: 2px solid $main-background;
+        }
+
+        .playAgain:hover {
+            background-color: $main-font;
+            color: $main-background;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        
+        max-width: 1000px;
+
+        .questionSection {
+    
+            .questionText {
+                font-size: $title-h1;
+            }
+    
+        }
+
+        .answerSection {
+
+            button {
+                width: 42%;
+            }
+        }
+
+    }
+
+}

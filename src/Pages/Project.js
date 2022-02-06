@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 
 //import components
 import NavBar from "../Components/NavBar";
-import CardProject from "../Components/ProjectsCompo/CardProject";
+import BodyProject from "../Components/ProjectsCompo/BodyProject";
 
 // import scss
 /* import "../Sass/components/_project.scss"; */
@@ -48,7 +48,7 @@ const Project = () => {
                     image={Logo}
                 />
 
-                <CardProject
+                <BodyProject
                     name={DataProjects[index].name}
                     desc={DataProjects[index].desc}
                     url={DataProjects[index].url}

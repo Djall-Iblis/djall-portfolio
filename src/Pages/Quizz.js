@@ -367,6 +367,7 @@ const Quizz = () => {
                 name={DataQuizzs[index].name}
                 theme={DataQuizzs[index].theme}
                 level={DataQuizzs[index].level}
+                id={DataQuizzs[index].id}
             />
             
         </section>
