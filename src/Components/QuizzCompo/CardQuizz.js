@@ -14,10 +14,6 @@ const CardQuizz = ({name, theme, images, level, id}) => {
                  <p> Niveau : {level}</p>
             </div>
 
-            <br />
-
-            <img src={images} alt={name}/>
-
         </section>
      );
 }

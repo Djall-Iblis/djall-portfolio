@@ -6,9 +6,6 @@ import CardQuizz from "../Components/QuizzCompo/CardQuizz";
 
 // import elements
 import Logo from "../img/logo/logo.svg"
-import logoReact from "../img/logo/logoReact.jpg"
-import logoLaravel from "../img/logo/logoLaravel.png"
-import logoHtmlCss from "../img/logo/logoHtmlCss.jpg"
 
 // import scss
 import "../Sass/components/_quizzs.scss";
@@ -20,25 +17,21 @@ const DataQuizzs = [{
     name: 'League of Legends',
     theme: 'Jeu vidéo',
     level: '2',
-    images: [ logoReact ],
  }, {
     id: '2',
     name: 'L\'Epouvanteur',
     theme: 'Litérature',
     level: '2',
-    images: [ logoLaravel ],
  }, {
     id: '3',
     name: 'Star Trek',
     theme: 'Films et Séries',
     level: '2',
-    images: [ logoHtmlCss ],
  }, {
     id: '4',
     name: 'Naruto',
     theme: 'Animation Japonaise',
     level: '2',
-    images: [ logoHtmlCss ],
  }
 ]
 
@@ -63,7 +56,6 @@ const Quizzs = () => {
                                 name={data.name}
                                 theme={data.theme}
                                 level={data.level}
-                                images={data.images}
                                 />
                             </Link>
                         </div>

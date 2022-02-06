@@ -3,11 +3,12 @@
 #cardQuizz {
 
     max-width: 330px;
+    min-width: 330px;
     margin: 40px auto;
     padding: 0;
     border: solid 2px $main-font;
     border-radius: 25px;
-    min-height: 500px;
+    min-height: 200px;
 
     background-color: white;
 

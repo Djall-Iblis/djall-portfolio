@@ -20,7 +20,7 @@ const DataQuizzs = [{
     id: '1',
     name: 'League of Legends',
     theme: 'Jeu vidéo',
-    level: '2',
+    level: '1',
     images: [ logoReact ],
  }, {
     id: '2',
@@ -32,13 +32,13 @@ const DataQuizzs = [{
     id: '3',
     name: 'Star Trek',
     theme: 'Films et Séries',
-    level: '2',
+    level: '3',
     images: [ logoHtmlCss ],
  }, {
     id: '4',
     name: 'Naruto',
     theme: 'Animation Japonaise',
-    level: '2',
+    level: '1',
     images: [ logoHtmlCss ],
  }
 ]
