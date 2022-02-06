@@ -14,7 +14,6 @@ const InterfaceQuizz = ({dataBase, name, theme, level}) => {
     });
 
     const nextQuestion = (isCorrect) => {
-        
 
         if (isCorrect) {
             setScore(score + 1)
@@ -44,7 +43,7 @@ const InterfaceQuizz = ({dataBase, name, theme, level}) => {
 
             <div className="questionSection">
                 <div className="questionText">{DataUsed[currentQuestion].questionText}</div>
-                <h2 className="countQuestion"></h2>
+                <h2 className="countQuestion">Question n°: ?</h2>
             </div>
 
             
