@@ -146,10 +146,10 @@ const BigData = [
             }, {
                 questionText: 'Comment s\'appel la meilleur amie de Tom, le héro ?',
                 answerOptions: [
-                    { optionText: 'Alice', isCorrect: false} , 
+                    { optionText: 'Alice', isCorrect: true} , 
                     { optionText: 'Celesta', isCorrect: false}, 
                     { optionText: 'Caitlyne', isCorrect: false}, 
-                    { optionText: 'Sarah', isCorrect: true}],
+                    { optionText: 'Sarah', isCorrect: false}],
             }, {
                 questionText: 'Quelle magie de socière n\'existe pas ?',
                 answerOptions: [
