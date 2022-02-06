@@ -11,7 +11,7 @@ const BodyProject = ({name, desc, images, url}) => {
             <p>{desc}</p>
 
             <p className="url">
-                <a href="{url}">Lien vers {name}</a>
+                <a href={url}>Lien vers {name}</a>
             </p>
 
             <img src={images} alt={name}/>

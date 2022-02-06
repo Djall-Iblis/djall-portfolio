@@ -371,7 +371,7 @@ const Quizz = () => {
             />
             
         </section>
-     );
+    );
 }
  
 export default Quizz;

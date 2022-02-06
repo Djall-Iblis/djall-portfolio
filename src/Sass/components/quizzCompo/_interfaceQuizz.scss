@@ -39,7 +39,6 @@
         .questionText {
             font-size: $title-h2;
         }
-
     }
 
     .answerSection {
@@ -63,13 +62,11 @@
             background-color: $main-font;
             color: $main-background;
         }
-
     }
 
     .displayNone {
 
         display: none;
-
     }
 
     .scoreSection {
@@ -103,7 +100,6 @@
             .questionText {
                 font-size: $title-h1;
             }
-    
         }
 
         .answerSection {
@@ -112,7 +108,5 @@
                 width: 42%;
             }
         }
-
     }
-
 }

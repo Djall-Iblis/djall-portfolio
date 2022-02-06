@@ -64,7 +64,7 @@ const Quizzs = () => {
             </div>
             
         </section>
-     );
+    );
 }
  
 export default Quizzs;

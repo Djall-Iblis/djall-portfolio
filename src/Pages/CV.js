@@ -168,7 +168,7 @@ const CV = () => {
             }
             
         </section>
-     );
+    );
 }
  
 export default CV;

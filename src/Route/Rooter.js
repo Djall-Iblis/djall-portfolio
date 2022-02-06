@@ -25,13 +25,10 @@ const Rooter = () => (
                 <Route path="/project/:slug" component={Project}/>
                 <Route path="/quizz/:slug" component={Quizz}/>
 
-                
-
-
                 <Route path="*" component={NoMatch}/>
             </Switch>
         </Router>
-    </Suspense> 
+    </Suspense>
 );
 
 export default Rooter;

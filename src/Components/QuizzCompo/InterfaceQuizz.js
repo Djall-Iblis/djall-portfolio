@@ -31,7 +31,7 @@ const InterfaceQuizz = ({dataBase, name, theme, level, id}) => {
         if (next < DataUsed.length) {
             setCurrentQuestion(next)
         } else {
-            setShowScore(true);
+            setShowScore(true)
             setShowQuestion(false)
         }
     }

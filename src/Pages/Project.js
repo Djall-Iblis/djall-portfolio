@@ -4,9 +4,6 @@ import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import NavBar from "../Components/NavBar";
 import BodyProject from "../Components/ProjectsCompo/BodyProject";
 
-// import scss
-/* import "../Sass/components/_project.scss"; */
-
 //import elements
 import Logo from "../img/logo/logo.svg"
 import logoReact from "../img/logo/logoReact.jpg"
@@ -57,8 +54,6 @@ const Project = () => {
 
             </section>
         );
-
-    
 }
 
 export default Project;

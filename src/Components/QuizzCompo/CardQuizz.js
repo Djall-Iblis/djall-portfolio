@@ -2,7 +2,7 @@
 import "../../Sass/components/quizzCompo/_cardQuizz.scss";
 
 
-const CardQuizz = ({name, theme, images, level, id}) => {
+const CardQuizz = ({name, theme, level}) => {
     return ( 
         <section id="cardQuizz">
 
