@@ -81,9 +81,7 @@ const InterfaceQuizz = ({dataBase, name, theme, level, id}) => {
                     <div>
                         Voici ton score : {score}/{DataUsed.length} !
                     </div>
-                    <Link to={`/quizz/${id}`}>
-                        <button onClick={() => refreshPage(true)} className="playAgain">Rejouer ?</button>
-                    </Link>
+                    <button onClick={() => refreshPage(true)} className="playAgain">Rejouer ?</button>
                 </div> : <></>
             }
             
