@@ -2,7 +2,7 @@
 import { useLocation, Link } from "react-router-dom"
 
 // import scss
-import "../Sass/components/_noMatch.scss"
+//import "../Sass/components/_noMatch.scss"
 
 
 function NoMatch() {
