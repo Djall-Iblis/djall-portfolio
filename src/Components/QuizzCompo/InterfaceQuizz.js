@@ -13,7 +13,6 @@ const InterfaceQuizz = ({dataBase, name, theme, level, id}) => {
     const [score, setScore] = useState(0);
 
     const DataUsed = dataBase;
-    const displayNone = '';
 
     useEffect(() => {
         if (showQuestion) {
