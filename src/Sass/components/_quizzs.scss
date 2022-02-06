@@ -1,26 +1,17 @@
 @import "../helpers/variables";
 
-#projects {
-
-    color: $main-background;
-    text-decoration: none;
-
-    .link {
-        text-decoration: none;
-    }
+#quizzs {
 
     h1 {
+        color: $main-background;
         text-align: center;
         font-size: $title-h1;
 
         font-weight: $bold-roboto;
     }
 
-    .card {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 350px;
+    .link {
+        text-decoration: none;
     }
 
     .container {
@@ -28,4 +19,5 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
 }

@@ -39,7 +39,6 @@ const Project = () => {
 
     const id = useParams();
     const index = id.slug - 1
-    console.log(index)
 
         return ( 
             <section id="project">

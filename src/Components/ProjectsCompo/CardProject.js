@@ -1,18 +1,15 @@
 //import scss
+import { Link } from "react-router-dom";
 import "../../Sass/components/projectsCompo/_cardProject.scss";
 
 
-const CardProject = ({name, desc, url, images, id}) => {
+const CardProject = ({name, desc, images}) => {
     return ( 
         <section id="cardProject">
 
             <h2>{name}</h2>
 
             <p>{desc}</p>
-
-            <a className="url" href={url}>{url}</a>
-
-            <br />
 
             <img src={images} alt={name}/>
 

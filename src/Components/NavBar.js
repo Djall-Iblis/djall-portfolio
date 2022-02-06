@@ -23,6 +23,10 @@ const NavBar = ({title, image}) => {
                 <li>
                     <Link to="/cv">Mon CV</Link>
                 </li>
+
+                <li>
+                    <Link to="/quizzs">Mes quizz</Link>
+                </li>
             </ul>
         </section>
      );

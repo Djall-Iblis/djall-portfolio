@@ -1,6 +1,6 @@
 @import "../../helpers/variables";
 
-#cardProject {
+#cardQuizz {
 
     max-width: 330px;
     margin: 40px auto;
@@ -17,20 +17,19 @@
         text-align: center;
     }
 
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     p {
-        margin: auto;
-        max-width: 90%;
-        margin-bottom: 20px;
-
-        text-decoration: none;
-    }
-
-    .url {
-        margin: 0 10%;
-    }
-
-    a:visited {
-        color: none;
+        color: $main-font;
+        font-size: $text-card;
+        width: 100%;
+        margin: 10px 0;
     }
 
     img {

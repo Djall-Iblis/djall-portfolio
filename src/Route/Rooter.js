@@ -9,6 +9,7 @@ const Home = lazy(() => import('../Pages/Home'));
 const Projects = lazy(() => import('../Pages/Projects'));
 const CV = lazy(() => import('../Pages/CV'));
 const Project = lazy(() => import('../Pages/Project'));
+const Quizzs = lazy(() => import('../Pages/Quizzs'));
 const Quizz = lazy(() => import('../Pages/Quizz'));
 
 
@@ -19,8 +20,10 @@ const Rooter = () => (
                 <Route exact path="/" component={Home}/>
                 <Route path="/projects" component={Projects}/>
                 <Route path="/cv" component={CV}/>
-                <Route path="/quizz" component={Quizz}/>
-                <Route path="/:slug" component={Project}/>
+                <Route path="/quizzs" component={Quizzs}/>
+
+                <Route path="/project/:slug" component={Project}/>
+                <Route path="/quizz/:slug" component={Quizz}/>
 
                 
 

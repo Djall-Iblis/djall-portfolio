@@ -45,13 +45,13 @@ const Projects = () => {
                 image={Logo}
             />
 
-            <h1>Mes projets</h1>
+            <h1>Mes Projets</h1>
 
             <div className="container">
                 {
                     DataProjects.map((data, index) => (
                         <div key={index} className="card">
-                            <Link to={`/${data.id}`}>
+                            <Link className="link" to={`/project/${data.id}`}>
                                 <CardProject
                                 id={data.id}
                                 name={data.name}
