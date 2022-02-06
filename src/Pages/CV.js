@@ -101,7 +101,7 @@ const CV = () => {
             <h3 className="titleSection">Présentation</h3>
 
             <CvPresentation
-                desc={'Dans un premier temps j\'ai suivi une formation en Electrotechnique, au lycée Jean Perrin, par la suite j\' optais pour une reconvertion dans le developpement web. Je suis dynamique et curieux, je cherche a devenir meilleur jour après jour. Malgré une petite timidité, je suis sympathique et m\'integre très bien dans une équipe.'}
+                desc={'Dans un premier temps j\'ai suivi une formation en Electrotechnique, au lycée Jean Perrin, par la suite j\' optais pour une reconvertion dans le developpement web. Je suis dynamique et curieux, je cherche à devenir meilleur jour après jour. Malgré une petite timidité, je suis sympathique et m\'intégre très bien dans une équipe.'}
             />
 
             <hr className="next"></hr>

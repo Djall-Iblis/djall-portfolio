@@ -1,6 +1,5 @@
 // import
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 // import scss
 import "../../Sass/components/quizzCompo/_interfaceQuizz.scss"

@@ -62,7 +62,7 @@ const BigData = [
                     { optionText: 'Un petit troll', isCorrect: true}, 
                     { optionText: 'Une colonie de Poros', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel le nounours d\'Annie ?',
+                questionText: 'Comment s\'appelle le nounours d\'Annie ?',
                 answerOptions: [
                     { optionText: 'Volibear', isCorrect: false},
                     { optionText: 'Il n\'a pas de nom', isCorrect: false},
@@ -97,14 +97,14 @@ const BigData = [
                     { optionText: 'Neeko', isCorrect: false}, 
                     { optionText: 'Wukong', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel la divinitée de la prêtresse Illaoi ?',
+                questionText: 'Comment s\'appelle la divinitée de la prêtresse Illaoi ?',
                 answerOptions: [
                     { optionText: 'Targon', isCorrect: false} , 
                     { optionText: 'Cthulhu', isCorrect: false}, 
                     { optionText: 'Nagakabouros', isCorrect: true}, 
                     { optionText: 'L\'Océan', isCorrect: false}],
             }, {
-                questionText: 'En quoi se déguise Fiddlestick pour surprendre c\'est victime ?',
+                questionText: 'En quoi se déguise Fiddlestick pour surprendre ses victime ?',
                 answerOptions: [
                     { optionText: 'Un corbeau', isCorrect: false} , 
                     { optionText: 'Un enfant', isCorrect: false}, 
@@ -144,14 +144,14 @@ const BigData = [
                     { optionText: 'Dans des catacombes', isCorrect: true}, 
                     { optionText: 'Dans le sous-sol d\'une maison', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel la meilleur amie de Tom, le héro ?',
+                questionText: 'Comment s\'appelle la meilleur amie de Tom, le héro ?',
                 answerOptions: [
                     { optionText: 'Alice', isCorrect: true} , 
                     { optionText: 'Celesta', isCorrect: false}, 
                     { optionText: 'Caitlyne', isCorrect: false}, 
                     { optionText: 'Sarah', isCorrect: false}],
             }, {
-                questionText: 'Quelle magie de socière n\'existe pas ?',
+                questionText: 'Quelle magie de sorcière n\'éxiste pas ?',
                 answerOptions: [
                     { optionText: 'La magie du sang', isCorrect: false} , 
                     { optionText: 'La magie des familiers', isCorrect: false}, 
@@ -165,21 +165,21 @@ const BigData = [
                     { optionText: 'Du bois de saule pleureur', isCorrect: false}, 
                     { optionText: 'Du bois d\'ébène', isCorrect: false}],
             }, {
-                questionText: 'Pour quelles raisons utlise-t-on ce bois ?',
+                questionText: 'Pour quelle raison utilise-t-on ce bois ?',
                 answerOptions: [
                     { optionText: 'Il est résistant', isCorrect: false} , 
-                    { optionText: 'Il permet de faire un forme de magie', isCorrect: false}, 
-                    { optionText: 'Il est éfficace contre les sorcières', isCorrect: true}, 
+                    { optionText: 'Il permet de faire une forme de magie', isCorrect: false}, 
+                    { optionText: 'Il est efficace contre les sorcières', isCorrect: true}, 
                     { optionText: 'Il est très répandu dans la région', isCorrect: false}],
             }, {
-                questionText: 'Dans quel pays ce déroule, la plus part du temps, l\'histoire ?',
+                questionText: 'Dans quel pays se déroule, la plus part du temps, l\'histoire ?',
                 answerOptions: [
                     { optionText: 'En Angleterre', isCorrect: true} , 
                     { optionText: 'En Amérique', isCorrect: false}, 
                     { optionText: 'En Chine', isCorrect: false}, 
                     { optionText: 'Dans un monde inventé pour l\'oeuvre', isCorrect: false}],
             }, {
-                questionText: 'Le quel de ces types de sorcière n\'existe pas ?',
+                questionText: 'Lequel de ces types de sorcière n\'éxiste pas ?',
                 answerOptions: [
                     { optionText: 'Les faussement accusées', isCorrect: false} , 
                     { optionText: 'Les pernicieuses', isCorrect: false}, 
@@ -188,7 +188,7 @@ const BigData = [
             }, {
                 questionText: 'Comment John Gregory, le maître de Tom, neutralise-t-il les sorcières ?',
                 answerOptions: [
-                    { optionText: 'Il mange leurs coeurs cru', isCorrect: false} , 
+                    { optionText: 'Il mange leur coeur cru', isCorrect: false} , 
                     { optionText: 'Il les enferme dans des puits', isCorrect: true}, 
                     { optionText: 'Il les tue', isCorrect: false}, 
                     { optionText: 'Il les bannit, en les renvoyant dans l\'obscure', isCorrect: false}],
@@ -202,10 +202,10 @@ const BigData = [
             answerOptions: [
                 { optionText: 'Le disrupteur atomique', isCorrect: false} , 
                 { optionText: 'Le canon photonique', isCorrect: true}, 
-                { optionText: 'Le phaseur a virus', isCorrect: false}, 
-                { optionText: 'la seringue hypodermique', isCorrect: false}],
+                { optionText: 'Le phaseur à virus', isCorrect: false}, 
+                { optionText: 'La seringue hypodermique', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel l\'entité qui a envoyé le Voyager dans le quadran Delta ?',
+                questionText: 'Comment s\'appelle l\'entité qui a envoyé le Voyager dans le quadrant Delta ?',
                 answerOptions: [
                     { optionText: 'Q', isCorrect: false} , 
                     { optionText: 'Les Borgs', isCorrect: false}, 
@@ -226,7 +226,7 @@ const BigData = [
                     { optionText: 'Ils attirent leurs attentions, en sauvant une planète', isCorrect: false}, 
                     { optionText: 'En voyageant dans le futur', isCorrect: false}],
             }, {
-                questionText: 'Sur Deep Space Nine, quelle est la particularité de Odo',
+                questionText: 'Sur Deep Space Nine, quelle est la particularité de Odo ?',
                 answerOptions: [
                     { optionText: 'C\'est le meilleur pilote du secteur', isCorrect: false} , 
                     { optionText: 'C\'est un génie', isCorrect: false}, 
@@ -247,21 +247,21 @@ const BigData = [
                     { optionText: 'Ils sont téléportés dans le passé', isCorrect: false}, 
                     { optionText: 'Ils fusionnent et ne deviennent qu\'un', isCorrect: true}],
             }, {
-                questionText: 'Qui s\'attaque aux êtres photoniques, quand ils visitent le Voyageur ?',
+                questionText: 'Qui s\'attaque aux êtres photoniques, quand ils visitent le Voyager ?',
                 answerOptions: [
                     { optionText: 'Les Borgs', isCorrect: false} , 
                     { optionText: 'Le Docteur Chaotica', isCorrect: true}, 
                     { optionText: 'Le capitain Janeway', isCorrect: false}, 
                     { optionText: 'Les Klingons', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel la ville Irlandaise du Holodeck ?',
+                questionText: 'Comment s\'appelle la ville Irlandaise du Holodeck ?',
                 answerOptions: [
                     { optionText: 'Carrick-on-Shannon', isCorrect: false} , 
                     { optionText: 'Celbridge', isCorrect: false}, 
                     { optionText: 'Fair Haven', isCorrect: true}, 
                     { optionText: 'Midleton', isCorrect: false}],
             }, {
-                questionText: 'De quelle époque vient la technologie de l\'émetteur portable du Docteur, du Voyageur ?',
+                questionText: 'De quelle époque vient la technologie de l\'émetteur portable du Docteur, du Voyager ?',
                 answerOptions: [
                     { optionText: '21e Siècle', isCorrect: false} , 
                     { optionText: '34e Siècle', isCorrect: true}, 
@@ -294,7 +294,7 @@ const BigData = [
                     { optionText: 'Des bottes', isCorrect: false}, 
                     { optionText: 'Un masque', isCorrect: true}],
             }, {
-                questionText: 'Le quel de ces types d\'oeil n\'existe pas, dans Naruto ?',
+                questionText: 'Le quel de ces types d\'oeil n\'éxiste pas, dans Naruto ?',
                 answerOptions: [
                     { optionText: 'Le Sharingan', isCorrect: false} , 
                     { optionText: 'Le Rinnegan', isCorrect: false}, 
@@ -308,7 +308,7 @@ const BigData = [
                     { optionText: 'De controler son chakra', isCorrect: false}, 
                     { optionText: 'De préparer des rãmens', isCorrect: false}],
             }, {
-                questionText: 'Comment s\'appel la petite amie de Naruto ?',
+                questionText: 'Comment s\'appelle la petite amie de Naruto ?',
                 answerOptions: [
                     { optionText: 'Sakura', isCorrect: false} , 
                     { optionText: 'Ino', isCorrect: false}, 
@@ -329,14 +329,14 @@ const BigData = [
                     { optionText: '6', isCorrect: true}, 
                     { optionText: '7', isCorrect: false}],
             }, {
-                questionText: 'Quel type d\'animal, Orochimaru, réprésent-il ?',
+                questionText: 'Quel type d\'animal, Orochimaru, réprésente-il ?',
                 answerOptions: [
                     { optionText: 'Les grenouilles', isCorrect: false} , 
                     { optionText: 'Les serpents', isCorrect: true}, 
                     { optionText: 'Les chats', isCorrect: false}, 
                     { optionText: 'Les dragons', isCorrect: false}],
             }, {
-                questionText: 'Quelle est le hobie de Jiraya ?',
+                questionText: 'Quel est le hobby de Jiraya ?',
                 answerOptions: [
                     { optionText: 'Il s\'entraine pour un marathon', isCorrect: false} , 
                     { optionText: 'Il réalise des combats de chien', isCorrect: false}, 
